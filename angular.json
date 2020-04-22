@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "comunicacao-entre-componentes-angular8"
+    }
+  },
+  "defaultProject": "comunicacao-entre-componentes-angular8",
+  "cli": {
+    "analytics": "2ad30e3e-9d3b-414f-9333-cd045acab68b"
+  }
 }

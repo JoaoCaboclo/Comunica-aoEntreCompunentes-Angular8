@@ -1,0 +1,23 @@
+<p>PAI listando itens que enviará para o FILHO</p>
+<ul>
+    <li *ngFor="let f of familia">
+      {{f.nome}} {{f.sobreNome}}
+    </li>
+</ul>
+
+<app-filho [recebeFamilia]="familia" (respostaFamilia)="reciverFeedback($event)"></app-filho>
+
+<p>
+  O novo nome é:
+  {{ nome + " -  " + sobreNome }}
+</p>
+
+<p>PAI listando mais um item recebido do FILHO</p>
+<ul>
+  <li *ngFor="let g of familia">
+    {{g.nome}} {{g.sobreNome}}
+  </li>
+</ul>
+
+
+
